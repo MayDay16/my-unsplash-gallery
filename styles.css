@@ -1,0 +1,61 @@
+﻿body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#randomImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#photographerInfo {
+  text-align: left;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#likeButton {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#likeCount {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+#prevButton{
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
